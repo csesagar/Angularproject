@@ -1,0 +1,15 @@
+<div class="main-page-container">
+  <app-header></app-header>
+
+  <!-- <app-home></app-home> -->
+  <!-- <app-contact></app-contact> -->
+  <!-- <app-about></app-about> -->
+  <!-- <app-courses></app-courses> -->
+   <router-outlet></router-outlet>
+  <!-- <app-login></app-login> -->
+    <div class="overlay" *ngIf="showLoader">
+    <div class="loader"></div>
+  </div>
+  <app-footer></app-footer>
+
+</div>
